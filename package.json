@@ -1,0 +1,27 @@
+{
+  "name": "mRouter.js",
+  "version": "0.0.3",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bartoszkrawczyk2/mRouter.js"
+  },
+  "author": "Bartosz Krawczyk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bartoszkrawczyk2/mRouter.js/issues"
+  },
+  "homepage": "https://github.com/bartoszkrawczyk2/mRouter.js",
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-uglify": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-util": "*",
+    "gulp-rename": "*",
+    "gulp-connect": "*"
+  }
+}

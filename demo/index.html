@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>mRouter.js demo</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <style>
+            body {
+                padding-top: 80px;
+            }
+
+            footer .container {
+                border-top: 1px solid #ccc;
+                padding-top: 20px;
+                margin-top: 150px;
+                margin-bottom: 50px;
+            }
+
+            footer p {
+                padding-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">mRouter.js Demo</a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/posts">Posts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container" id="appView"></div>
+
+        <footer>
+            <div class="container text-center">
+                <a href="https://github.com/bartoszkrawczyk2/mRouter.js" class="btn btn-default link">Github <i class="fa fa-github"></i></a>
+                <p>
+                    &copy; <a href="http://bartoszkrawczyk.com/" class="link">Bartosz Krawczyk</a>. MIT License.
+                </p>
+            </div>
+        </footer>
+
+        <script data-main="js/config" src="js/libs/require.js"></script>
+    </body>
+</html>
