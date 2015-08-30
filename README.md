@@ -3,7 +3,7 @@ mRouter.js
 Simple javascript routing library. Works with History.js or hashchange.
 
 ----
-## Usage:
+## Usage
 Create instance of MRouter and define routes:
 
 ```js
