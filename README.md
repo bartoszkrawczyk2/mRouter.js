@@ -21,7 +21,7 @@ $(window).on('hashchange', function() {
 });
 ```
 
-+ **.notFound(callback)** - Calls callback when no matching route is found. Example:
++ **.notFound(callback)** - Execute function when no matching route is found. Example:
 ```js
 router.notFound(function() {
   alert('Route ' + this.path + ' not found!');
